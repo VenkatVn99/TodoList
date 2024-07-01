@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "system-ui";
+  background-color: #272829;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2rem;
+  color: #fff6e0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #d8d9da;
+}
+
+.input-area {
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid #03045e;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.add-btn {
+  padding: 10px;
+  width: 100px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #61677a;
+  color: white;
+  font-weight: 600;
+}
+
+.save-btn {
+  padding: 10px;
+  width: 100px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #61677a;
+  color: white;
+  font-weight: 600;
+}
+.tasks-list-con {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: #0077b6;
+}
+.task-text {
+  color: white;
+  font-weight: 600;
+}
+.check-box-input {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+.checkbox-container {
+  display: flex;
+}
+
+.taskInfoContainer {
+  display: flex;
+  align-items: center;
+  width: 468px;
+  justify-content: space-between;
+  background-color: #be3144;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.delete-icon-container {
+  text-align: right;
+  width: 18%;
+}
+
+.delete-icon {
+  color: white;
+}
